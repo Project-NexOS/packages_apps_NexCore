@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The EverestOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Text Styles -->
+    <style name="nexTextPrimary">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
+
+    <style name="nexTextPrimaryMedium" parent="nexTextPrimary">
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
+    </style>
+
+    <style name="nexTextSecondaryMedium">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?android:colorPrimary</item>
+    </style>
+
+    <style name="nexTextSecondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="text_style" parent="@style/text_style_base">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
+    </style>
+
+    <style name="text_style_base">
+        <item name="android:breakStrategy">simple</item>
+    </style>
+
+    <!-- Dashboard -->
+    <style name="nexDashboardPreferenceSingle" parent="nexPreferenceSingle">
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+    
+    <style name="nexDashboardPreferenceTop" parent="nexPreferenceTop">
+        <item name="android:layout_marginTop">@dimen/nex_pref_horizontal_padding</item>
+    </style>
+
+    <style name="nexDashboardPreferenceBottom" parent="nexPreferenceBottom">
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="nexDashboardPreferenceFull" parent="nexPreferenceFull">
+        <item name="android:layout_marginTop">@dimen/nex_pref_horizontal_padding</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <style name="nexDashboardPreferenceFullAccent" parent="nexDashboardPreferenceFull">
+        <item name="android:background">@drawable/nex_preference_background_full_accent</item>
+    </style>
+
+    <style name="nexDashboardPreferencePhone" parent="nexDashboardPreferenceTop">
+        <item name="android:background">@drawable/nex_preference_background_phone</item>
+    </style>
+
+    <!-- General -->
+    <style name="nexPreferenceSingle" parent="nexPreferenceBase">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/nex_preference_background_single</item>
+    </style>
+    
+    <style name="nexPreferenceBase">
+        <item name="android:layout_marginStart">@dimen/nex_pref_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/nex_pref_horizontal_padding</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="nexPreferenceTop" parent="nexPreferenceBase">
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:background">@drawable/nex_preference_background_top</item>
+    </style>
+
+    <style name="nexPreferenceMiddle" parent="nexPreferenceBase">
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:background">@drawable/nex_preference_background_middle</item>
+    </style>
+
+    <style name="nexPreferenceBottom" parent="nexPreferenceBase">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/nex_preference_background_bottom</item>
+    </style>
+
+    <style name="nexPreferenceFull" parent="nexPreferenceBase">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/nex_preference_background_full</item>
+    </style>
+
+    <style name="nexPreferenceFullAccent" parent="nexPreferenceBase">
+        <item name="android:layout_marginTop">@dimen/nex_pref_horizontal_padding</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/nex_preference_background_full_accent</item>
+    </style>
+</resources>

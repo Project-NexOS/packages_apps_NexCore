@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 The EverestOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+     <dimen name="nex_radius">28dp</dimen>
+     <dimen name="nex_radius_merge">5dp</dimen>
+     <dimen name="nex_pref_horizontal_padding">16dp</dimen>
+     <dimen name="nex_pref_horizontal_padding-negative">-16dp</dimen>
+
+     <!-- Banner -->
+     <dimen name="card_margin_start_aqua">20dp</dimen>
+     <dimen name="card_margin_end_aqua">20dp</dimen>
+</resources>
