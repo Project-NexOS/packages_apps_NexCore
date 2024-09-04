@@ -60,7 +60,7 @@ public class NexCore extends SettingsPreferenceFragment implements View.OnClickL
                 view.findViewById(R.id.gesturecard),
                 view.findViewById(R.id.notificationcard),
                 view.findViewById(R.id.systemcard),
-                view.findViewById(R.id.fontscard),
+                view.findViewById(R.id.about),
                 view.findViewById(R.id.miscscard),
                 view.findViewById(R.id.buttonscard)
         };
@@ -118,9 +118,9 @@ public class NexCore extends SettingsPreferenceFragment implements View.OnClickL
         } else if (id == R.id.systemcard) {
             fragment = new SystemSettings();
             title = getString(R.string.system_title);
-        } else if (id == R.id.fontscard) {
-            fragment = new FontsPicker();
-            title = getString(R.string.theme_customization_font_title);
+        } else if (id == R.id.about) {
+            fragment = new About();
+            title = getString(R.string.about_title);
         } else if (id == R.id.miscscard) {
             fragment = new MiscSettings();
             title = getString(R.string.misc_title);

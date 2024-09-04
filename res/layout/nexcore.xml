@@ -106,7 +106,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/fontscard"
+                    android:id="@+id/about"
                     android:layout_width="0dp"
                     android:layout_height="75dp"
                     android:layout_marginStart="8dp"
@@ -120,14 +120,14 @@
                         android:layout_height="wrap_content"
                         android:padding="10dp"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/ic_settings_miscs"
+                        android:src="@drawable/ic_about"
                         android:tint="?android:colorPrimary" />
 
                     <TextView
                         style="@style/nexTextSecondaryMedium"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Fonts" />
+                        android:text="About Nex" />
                 </LinearLayout>
             </LinearLayout>
 
