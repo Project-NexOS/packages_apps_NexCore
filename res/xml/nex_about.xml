@@ -37,4 +37,12 @@
         android:title="@string/links_title"
         settings:layout="@layout/nex_cardview_single_left" />
 
+    <Preference
+        android:fragment="com.nex.nexcore.fragments.about.Maintainer"
+        android:icon="@drawable/ic_about"
+        android:key="about_maintainer"
+        android:summary="@string/about_summary"
+        android:title="@string/about_title"
+        settings:layout="@layout/nex_cardview_single_right" />
+
 </PreferenceScreen>

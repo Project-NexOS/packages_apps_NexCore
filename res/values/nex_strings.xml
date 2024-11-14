@@ -5,6 +5,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Nex maintainer -->
+    <string name="maintainer_name">Arman ATI</string>
+    <string name="maintainer_description">Noob af dev!</string>
+
     <!-- links -->
     <string name="links_summary">Checkout the important links</string>
     <string name="links_title">Links</string>
